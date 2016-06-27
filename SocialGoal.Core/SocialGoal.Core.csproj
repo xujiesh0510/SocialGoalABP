@@ -82,7 +82,11 @@
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\CommentUser.cs" />
+    <Compile Include="Models\Focus.cs" />
+    <Compile Include="Models\Group.cs" />
     <Compile Include="Models\Metric.cs" />
+    <Compile Include="Models\NotificationType.cs" />
+    <Compile Include="Models\UserProfile.cs" />
     <Compile Include="SocialGoalConsts.cs" />
     <Compile Include="SocialGoalCoreModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
