@@ -83,6 +83,8 @@
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\CommentUser.cs" />
     <Compile Include="Models\Focus.cs" />
+    <Compile Include="Models\FollowRequest.cs" />
+    <Compile Include="Models\FollowUser.cs" />
     <Compile Include="Models\Group.cs" />
     <Compile Include="Models\Metric.cs" />
     <Compile Include="Models\NotificationType.cs" />

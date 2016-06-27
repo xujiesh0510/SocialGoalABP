@@ -99,6 +99,8 @@
     <Compile Include="Configuration\CommentConfiguration.cs" />
     <Compile Include="Configuration\CommentUserConfiguration.cs" />
     <Compile Include="Configuration\FocusConfiguration.cs" />
+    <Compile Include="Configuration\FollowRequestConfiguration.cs" />
+    <Compile Include="Configuration\FollowUserConfiguration.cs" />
     <Compile Include="Configuration\GroupConfiguration.cs" />
     <Compile Include="Configuration\MetricConfiguration.cs" />
     <Compile Include="Configuration\UserProfileConfiguration.cs" />
