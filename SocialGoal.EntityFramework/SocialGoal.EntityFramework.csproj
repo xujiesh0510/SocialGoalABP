@@ -97,6 +97,7 @@
   <ItemGroup>
     <Compile Include="Configuration\ApplicationUserConfiguration.cs" />
     <Compile Include="Configuration\CommentConfiguration.cs" />
+    <Compile Include="Configuration\CommentUserConfiguration.cs" />
     <Compile Include="Configuration\MetricConfiguration.cs" />
     <Compile Include="EntityFramework\SocialGoalDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\SocialGoalRepositoryBase.cs" />
