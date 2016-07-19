@@ -4,7 +4,7 @@ using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using SocialGoal.Models;
 namespace SocialGoal.Configuration
 {
     public class GroupConfiguration : EntityTypeConfiguration<Group>

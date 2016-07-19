@@ -1,23 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Abp.Domain.Entities;
 
 namespace SocialGoal.Models
 {
-   public class Comment:Entity
+   public class GroupComment
     {
-        public int CommentId { get; set; }
+        public int GroupCommentId { get; set; }
         public string CommentText { get; set; }
-        public int UpdateId { get; set; }
+        public int GroupUpdateId { get; set; }
         public DateTime CommentDate { get; set; }
-        public virtual Update Update { get; set; }
-        public Comment()
-        {
+        public virtual GroupUpdate GroupUpdate { get; set; }
+
+       public GroupComment()
+       {
             CommentDate = DateTime.Now;
-        }
+       }
     }
 }

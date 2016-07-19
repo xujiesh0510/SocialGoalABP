@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.Domain.Entities;
 
 namespace SocialGoal.Models
 {
-    public class ApplicationUser
+    public class ApplicationUser:Entity
     {
+        public int UserId { get; set; }
         public string Email { get; set; }
 
         public string FirstName { get; set; }
